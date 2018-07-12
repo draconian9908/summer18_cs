@@ -1,0 +1,34 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+graph [ranksep=equally, splines=polyline] ;
+0 [label="petalwid <= 0.8\ngini = 0.651\nsamples = 88\nvalue = [56, 33, 52]\nclass = setosa", fillcolor="#e581390b"] ;
+1 [label="gini = 0.0\nsamples = 33\nvalue = [56, 0, 0]\nclass = setosa", fillcolor="#e58139ff"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="petalwid <= 1.65\ngini = 0.475\nsamples = 55\nvalue = [0, 33, 52]\nclass = virginica", fillcolor="#8139e55d"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label="petallen <= 5.0\ngini = 0.272\nsamples = 25\nvalue = [0, 31, 6]\nclass = versicolor", fillcolor="#39e581ce"] ;
+2 -> 3 ;
+4 [label="gini = 0.0\nsamples = 21\nvalue = [0, 29, 0]\nclass = versicolor", fillcolor="#39e581ff"] ;
+3 -> 4 ;
+5 [label="sepallen <= 6.05\ngini = 0.375\nsamples = 4\nvalue = [0, 2, 6]\nclass = virginica", fillcolor="#8139e5aa"] ;
+3 -> 5 ;
+6 [label="gini = 0.0\nsamples = 1\nvalue = [0, 2, 0]\nclass = versicolor", fillcolor="#39e581ff"] ;
+5 -> 6 ;
+7 [label="gini = 0.0\nsamples = 3\nvalue = [0, 0, 6]\nclass = virginica", fillcolor="#8139e5ff"] ;
+5 -> 7 ;
+8 [label="petallen <= 5.05\ngini = 0.08\nsamples = 30\nvalue = [0, 2, 46]\nclass = virginica", fillcolor="#8139e5f4"] ;
+2 -> 8 ;
+9 [label="sepalwid <= 2.9\ngini = 0.32\nsamples = 7\nvalue = [0, 2, 8]\nclass = virginica", fillcolor="#8139e5bf"] ;
+8 -> 9 ;
+10 [label="gini = 0.0\nsamples = 5\nvalue = [0, 0, 8]\nclass = virginica", fillcolor="#8139e5ff"] ;
+9 -> 10 ;
+11 [label="gini = 0.0\nsamples = 2\nvalue = [0, 2, 0]\nclass = versicolor", fillcolor="#39e581ff"] ;
+9 -> 11 ;
+12 [label="gini = 0.0\nsamples = 23\nvalue = [0, 0, 38]\nclass = virginica", fillcolor="#8139e5ff"] ;
+8 -> 12 ;
+{rank=same ; 0} ;
+{rank=same ; 2} ;
+{rank=same ; 3; 8} ;
+{rank=same ; 5; 9} ;
+{rank=same ; 1; 4; 6; 7; 10; 11; 12} ;
+}
