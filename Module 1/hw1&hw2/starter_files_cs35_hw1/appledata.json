@@ -1,0 +1,67 @@
+{
+  "resultCount": 7,
+  "results": [
+    {
+      "wrapperType": "artist",
+      "artistType": "Artist",
+      "artistName": "Steve Perry",
+      "artistLinkUrl": "https://itunes.apple.com/us/artist/steve-perry/900211?uo=4",
+      "artistId": 900211,
+      "amgArtistId": 5131,
+      "primaryGenreName": "Rock",
+      "primaryGenreId": 21
+    },
+    {
+      "wrapperType": "artist",
+      "artistType": "Artist",
+      "artistName": "Steve Perry",
+      "artistLinkUrl": "https://itunes.apple.com/us/artist/steve-perry/445708583?uo=4",
+      "artistId": 445708583,
+      "primaryGenreName": "Blues",
+      "primaryGenreId": 2
+    },
+    {
+      "wrapperType": "artist",
+      "artistType": "Artist",
+      "artistName": "Steve Perry",
+      "artistLinkUrl": "https://itunes.apple.com/us/artist/steve-perry/600012830?uo=4",
+      "artistId": 600012830,
+      "primaryGenreName": "R&B/Soul",
+      "primaryGenreId": 15
+    },
+    {
+      "wrapperType": "artist",
+      "artistType": "Artist",
+      "artistName": "Steve Perry",
+      "artistLinkUrl": "https://itunes.apple.com/us/artist/steve-perry/428208815?uo=4",
+      "artistId": 428208815,
+      "primaryGenreName": "Pop",
+      "primaryGenreId": 14
+    },
+    {
+      "wrapperType": "artist",
+      "artistType": "Artist",
+      "artistName": "Steve Perry",
+      "artistLinkUrl": "https://itunes.apple.com/us/artist/steve-perry/382980531?uo=4",
+      "artistId": 382980531,
+      "primaryGenreName": "Dance",
+      "primaryGenreId": 17
+    },
+    {
+      "wrapperType": "artist",
+      "artistType": "Artist",
+      "artistName": "Steve Crow, Kim perry",
+      "artistLinkUrl": "https://itunes.apple.com/us/artist/steve-crow-kim-perry/250929270?uo=4",
+      "artistId": 250929270
+    },
+    {
+      "wrapperType": "artist",
+      "artistType": "Artist",
+      "artistName": "The Cyberjacks Feat Steve Perry",
+      "artistLinkUrl": "https://itunes.apple.com/us/artist/the-cyberjacks-feat-steve-perry/278981443?uo=4",
+      "artistId": 278981443,
+      "primaryGenreName": "Dance",
+      "primaryGenreId": 17
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+body {
+    /*background-color: white;*/
+    max-width: 500px;
+    background-image: url("claremont_colleges_logo.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+h1 {
+    color: black;
+}
+p {
+    color: black;
+}
+
+/* animation code, for blinking text */
+#animation {
+  max-width: 500px;
+  font-size: xx-large;
+}
+
+@keyframes blinking {
+  0%    {color: green;}
+  25%   {color: goldenrod;}
+  50%   {color: chartreuse;}
+  75%   {color: gold;}
+  100%  {color: white;}
+}
+
+@keyframes rotating {
+  0%    {left: 550px; top: 20px;}
+  25%   {left: 660px; top: 300px;}
+  50%   {left: 440px; top: 100px;}
+  75%   {left: 700px; top: 600px;}
+  100%  {left: 600px; top: 235px;}
+}
+
+.blink {
+  animation-name: blinking;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.weirdrot {
+  background-image: url("claremont_college_logo.jpg");
+  animation-name: rotating;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
